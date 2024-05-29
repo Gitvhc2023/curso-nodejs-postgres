@@ -1,0 +1,12 @@
+sudo docker-compose up -d postgres → Levantar el contenedor docker.
+sudo docker-compose up -d pgadmin
+sudo docker inspect 90f9d02f59a6  → para inspencionar la ip que genera docker
+
+sudo docker-compose up -d mysql
+sudo docker-compose up -d phpmyadmin
+
+
+sudo docker-compose ps → Ver contenedores corriendo.
+sudo docker-compose down → Dejar de correr el contenedor docker.
+
+https://github.com/platzi/curso-nodejs-postgres/tree/3-step  → respositorio git
